@@ -9,7 +9,6 @@ export default function HomePage() {
   return (
     /* Server component */
     <section>
-      <h1>Hola mundo</h1>
       {/* Client component */}
       <Users />
     </section>
