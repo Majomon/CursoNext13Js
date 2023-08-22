@@ -3,7 +3,7 @@
 //que se renderiza del lado del cliente. Ej: Evento click, localstorage, useState, useEffect, etc
 // Los componentes Hijos heredan esta propiedad
 
-import Users from "@/components/Users";
+import Users from "@/src/components/Users";
 
 export default function HomePage() {
   return (

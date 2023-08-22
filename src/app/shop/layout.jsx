@@ -8,7 +8,7 @@ export default function ShopLayout({ children }) {
   return (
     <>
       <nav>
-        <h3>Sección tienda</h3>
+        <h3>Sección tienda - Navegación</h3>
         <ul>
           <li>
             <Link href="/shop/category">Categorias</Link>
@@ -18,6 +18,7 @@ export default function ShopLayout({ children }) {
           </li>
         </ul>
       </nav>
+      <hr />
       {children}
     </>
   );
