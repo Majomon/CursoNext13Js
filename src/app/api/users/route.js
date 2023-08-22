@@ -3,8 +3,7 @@ import { NextResponse } from "next/server";
 export async function GET() {
   // Puedo extraer parametros
   // Puedo consultar una base de datos
-  // Puedo comunicarme con otros servidores
-
+  // Puedo comunicarme con otros servidores 
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
   const data = await res.json();
   return NextResponse.json({ data });
