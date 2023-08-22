@@ -1,4 +1,4 @@
-import Post from "../page";
+import Post from "@/app/posts/page";
 import { Suspense } from "react";
 
 async function loadPost(id) {
@@ -15,13 +15,7 @@ async function PostId({ params }) {
       <p>Descripción: {post.body}</p>
       <hr />
       <h4>Otras publicaciones</h4>
-      <Suspense
-        fallback={
-          <div>
-            <h4>Cargando publicaciones...</h4>
-          </div>
-        }
-      >
+      <Suspense fallback={<div><h4>Cargando publicaciones...</h4></div>}>
         <Post />
       </Suspense>
     </div>
