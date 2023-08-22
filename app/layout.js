@@ -1,5 +1,6 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar/Navbar";
 import { Roboto } from "next/font/google";
+import "./global.css";
 
 /* Los metada solamente funcionan en paginas del lado del servidor */
 export const metadata = {
