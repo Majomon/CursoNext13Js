@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Shop Page",
+};
 export default function ShopLayout({ children }) {
   // Aca solamente retorn el children. No todo el HTML
   return (
